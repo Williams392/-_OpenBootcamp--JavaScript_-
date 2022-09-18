@@ -1,0 +1,15 @@
+{
+  "name": "mipackage",
+  "version": "0.0.1",
+  "description": "01-introduccion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mi",
+    "paquete"
+  ],
+  "author": "Williams <yo>",
+  "license": "ISC"
+}
