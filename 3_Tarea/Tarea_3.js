@@ -1,0 +1,29 @@
+// factorial-for.js ->  de 10
+
+const num = 10;
+var fact = 1;
+
+for (let i = 1; i <= num; i++) {
+    fact = fact*i;
+}
+console.log(fact)
+
+// factorial-while.js ->
+
+const factorial = numero => {
+	if (numero < 0) numero = numero * -1;
+	if (numero <= 0) return 1;
+	let factorial = 1;
+	while (numero > 1) {
+		factorial = factorial * numero;
+		numero--;
+	}
+	return factorial;
+}
+
+for (let x = 0; x < 10; x++) {
+	console.log(`El factorial de ${x} es ${factorial(x)}`);
+}
+
+//
+
